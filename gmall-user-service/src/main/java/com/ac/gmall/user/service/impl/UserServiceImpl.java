@@ -1,10 +1,10 @@
 package com.ac.gmall.user.service.impl;
 
 import com.ac.gmall.user.mapper.UserMemberMapper;
+import com.alibaba.dubbo.config.annotation.Service;
 import entity.UserMember;
 import entity.UserMemberCriteria;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
 import service.UserService;
 
 import java.util.List;
@@ -14,7 +14,7 @@ import java.util.List;
  * @date ：Created in 2019-11-22
  * @description：
  */
-@Service("userService")
+@Service
 public class UserServiceImpl implements UserService {
     @Autowired
     private UserMemberMapper userMemberMapper;

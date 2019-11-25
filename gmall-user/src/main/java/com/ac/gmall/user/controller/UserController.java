@@ -14,7 +14,7 @@ import java.util.List;
  * @date ：Created in 2019-11-22
  * @description：
  */
-@Controller
+//@Controller
 public class UserController {
     @Resource
     private UserService userService;

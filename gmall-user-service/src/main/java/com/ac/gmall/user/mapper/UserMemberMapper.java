@@ -2,12 +2,12 @@ package com.ac.gmall.user.mapper;
 
 import entity.UserMember;
 import entity.UserMemberCriteria;
-import java.util.List;
-
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.session.RowBounds;
 import org.springframework.stereotype.Repository;
+
+import java.util.List;
 
 @Repository
 @Mapper
