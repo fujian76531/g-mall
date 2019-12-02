@@ -59,19 +59,19 @@
                         password="4321`qaz">
 
         </jdbcConnection>
-        <javaModelGenerator targetPackage="com.ac.gmall.user.entity"
-                            targetProject="C:\Users\launcher\Desktop\gmail\g-mall\gmall-user\src\main\java">
+        <javaModelGenerator targetPackage="entity"
+                            targetProject="C:\Users\launcher\Desktop\gmail\g-mall\gmall-api\src\main\java">
             <property name="enableSubPackages" value="true"/>
             <property name="trimStrings" value="true"/>
         </javaModelGenerator>
 
         <sqlMapGenerator targetPackage="mapper"
-                         targetProject="C:\Users\launcher\Desktop\gmail\g-mall\gmall-user\src\main\resources">
+                         targetProject="C:\Users\launcher\Desktop\gmail\g-mall\gmall-manage-service\src\main\resources">
             <property name="enableSubPackages" value="true"/>
         </sqlMapGenerator>
 
-        <javaClientGenerator targetPackage="com.ac.gmall.user.mapper"
-                             targetProject="C:\Users\launcher\Desktop\gmail\g-mall\gmall-user\src\main\java" type="XMLMAPPER">
+        <javaClientGenerator targetPackage="com.ac.gmall.manage.mapper"
+                             targetProject="C:\Users\launcher\Desktop\gmail\g-mall\gmall-manage-service\src\main\java" type="XMLMAPPER">
             <property name="enableSubPackages" value="true"/>
         </javaClientGenerator>
 
@@ -184,7 +184,17 @@
                selectByExampleQueryId="true">
         </table>
 -->
-        <table tableName="ums_member" domainObjectName="UserMember"
+        <table tableName="pms_base_catalog1" domainObjectName="PmsBaseCatelog1"
+               enableCountByExample="true" enableUpdateByExample="true"
+               enableDeleteByExample="true" enableSelectByExample="true"
+               selectByExampleQueryId="true">
+        </table>
+        <table tableName="pms_base_catalog2" domainObjectName="PmsBaseCatelog2"
+               enableCountByExample="true" enableUpdateByExample="true"
+               enableDeleteByExample="true" enableSelectByExample="true"
+               selectByExampleQueryId="true">
+        </table>
+        <table tableName="pms_base_catalog3" domainObjectName="PmsBaseCatelog3"
                enableCountByExample="true" enableUpdateByExample="true"
                enableDeleteByExample="true" enableSelectByExample="true"
                selectByExampleQueryId="true">

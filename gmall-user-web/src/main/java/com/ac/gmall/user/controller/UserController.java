@@ -1,12 +1,12 @@
 package com.ac.gmall.user.controller;
 
+import com.alibaba.dubbo.config.annotation.Reference;
 import entity.UserMember;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import service.UserService;
 
-import javax.annotation.Resource;
 import java.util.List;
 
 /**
@@ -16,8 +16,8 @@ import java.util.List;
  */
 @Controller
 public class UserController {
-    @Resource
-    private UserService userService;
+    @Reference
+    UserService userService;
 
     @RequestMapping("index")
     @ResponseBody

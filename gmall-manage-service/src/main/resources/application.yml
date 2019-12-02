@@ -1,19 +1,5 @@
-## 服务端口
-#server.port=8080
-#
-## jdbc
-#spring.datasource.password=4321`qaz
-#spring.datasource.username=gmail
-#spring.datasource.url=jdbc:mysql://localhost:3306/gmail?characterEncoding=UTF-8
-#
-## mybtais配置
-#mybatis.mapper-locations=classpath:mapper/*Mapper.xml
-#mybatis.configuration.map-underscore-to-camel-case=true
-#
-## 日志级别
-#logging.level.root=info
 server:
-  port: 8070
+  port: 8071
 spring:
   datasource:
     druid:
@@ -36,7 +22,7 @@ spring:
       useGlobalDataSourceStat: true
       connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
   dubbo:
-    application: user-service #dubbo中的服务名称
+    application: manage-service #dubbo中的服务名称
     protocol:
       name: dubbo #dubbo中的通信协议名称
     registry:
