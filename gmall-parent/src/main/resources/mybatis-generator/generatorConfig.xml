@@ -184,17 +184,12 @@
                selectByExampleQueryId="true">
         </table>
 -->
-        <table tableName="pms_base_catalog1" domainObjectName="PmsBaseCatelog1"
+        <table tableName="pms_base_attr_info" domainObjectName="PmsBaseAttrInfo"
                enableCountByExample="true" enableUpdateByExample="true"
                enableDeleteByExample="true" enableSelectByExample="true"
                selectByExampleQueryId="true">
         </table>
-        <table tableName="pms_base_catalog2" domainObjectName="PmsBaseCatelog2"
-               enableCountByExample="true" enableUpdateByExample="true"
-               enableDeleteByExample="true" enableSelectByExample="true"
-               selectByExampleQueryId="true">
-        </table>
-        <table tableName="pms_base_catalog3" domainObjectName="PmsBaseCatelog3"
+        <table tableName="pms_base_attr_value" domainObjectName="PmsBaseAttrValue"
                enableCountByExample="true" enableUpdateByExample="true"
                enableDeleteByExample="true" enableSelectByExample="true"
                selectByExampleQueryId="true">
